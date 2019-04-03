@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import Form from './Form.js'
+import Login from './Login.js'
 import logo from './logo.svg';
 import './App.css';
 
@@ -20,6 +22,9 @@ class App extends Component {
             Learn React
           </a>
         </header>
+        <button>log in</button>
+        <Login/>
+        <Form/>
       </div>
     );
   }
